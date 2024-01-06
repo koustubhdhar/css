@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+    padding: 4% 0% 0% 8%;
+}
+.container{
+    width:100%;
+    border : 1px solid white;
+    display: flex ;
+}
+.grid-container{
+    width:16%;
+    border : 1px solid white;
+    display: grid; 
+}
+.flex{
+    width:50%;
+    height: 70%;
+    border: 2px solid black;
+}
+.card{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+}
+.grid{
+    width:600%;
+    height: 70%;
+    border: 2px solid black;
+    margin:4%;
+}
+.card-2{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+}
+@media only screen and (max-width: 480px) {
+    .container {
+        width: 86%;
+        border: 1px solid white;
+        display: flex;
+        padding: 10px;
+    }
+    .card {
+        width: 43px;
+        height: 100px;
+        background-color: red;
+    }
+    .grid-container {
+        width: 92%;
+        border: 1px solid white;
+        display: grid;
+        margin-top: 10px;
+    }
+    .card-2 {
+        width: 274px;
+        height: 100px;
+        background-color: red;
+    }
+  }
+  
+  @media only screen and (min-width: 481px) and (max-width: 767px) {
+    .container {
+        width: 86%;
+        border: 1px solid white;
+        display: flex;
+        padding: 10px;
+    }
+    .card {
+        width: 43px;
+        height: 100px;
+        background-color: red;
+    }
+    .grid-container {
+        width: 92%;
+        border: 1px solid white;
+        display: grid;
+        margin-top: 10px;
+    }
+    .card-2 {
+        width: 274px;
+        height: 100px;
+        background-color: red;
+    }
+
+  }
+  
