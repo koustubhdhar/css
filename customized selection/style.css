@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+
+}
+.h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+    color: azure;
+}
+::selection{
+    background-color: yellow;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
