@@ -1,0 +1,22 @@
+h1 {
+color: red;
+}
+p{
+    color: blue;
+}
+/* alfa in rgba */
+p {
+    color: rgba(0,255,0,0.5);
+}
+/* transparent */
+p{
+    color: transparent;
+}
+/* current color */
+ .hero-section{
+    color:palevioletred;
+
+ }
+ p{
+    color: currentColor;
+ }
