@@ -1,0 +1,14 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box
+}
+/* px (pixels) are smallest mesuring unit in css */
+h1{
+    font-size: 54px;
+    color: burlywood;
+}
+/* (%) 1% = 6.25px */
+h1{
+    font-size = 337.5%
+}
